@@ -1,4 +1,6 @@
-let miCadena = [1, 2, 3, 4, 5];
-miCadena.push(6);
-miCadena.shift();
-document.write(miCadena);
+let name = prompt("What is your name?");
+if (name == "Alexi") {
+    document.write("Eres un hermoso bebé")
+} else {
+    document.write("Saquese vieja pioja")
+}
